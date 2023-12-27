@@ -71,8 +71,30 @@
         "5:mud_slap",
         "6:bubble_beam",
         "8:sand_attack",
-        "13:vine_whip"
-        
+        "13:vine_whip",
+        "20:body_slam",
+        "23:mud_bomb",
+        "24:toxic",
+        "32:sludge_bomb",
+        "33:belch",
+        "54:shore_up",
+        "61:syrup_bomb",
+        "72:chloroblast",
+        "tm:venoshock",
+        "tm:gunk_shot",
+        "tm:sludge_wave",
+        "tm:sweet_scent",
+        "tm:venom_drench",
+        "tm:dazzling_gleam",
+        "tm:dark_pulse",
+        "tm:knock_off",
+        "tm:iron_tail",
+        "tm:rock_tomb",
+        "tutor:poison_tail",
+        "tutor:acid_armor",
+        "tutor:rest",
+        "tutor:ancient_power",
+        "tutor:muddy_water"
     ],
     "labels": [
         "custom"
@@ -82,24 +104,7 @@
         "cobblemon.species.c_lanturn.desc2"
     ],
     "evolutions": [
-        {
-            "id": "chinchou_lantern_trade",
-            "variant": "level_up",
-            "result": "lanturn crowned",
-            "consumeHeldItem": true,
-            "learnableMoves": ["spark"],
-            "requirements": [
-                {
-                    "variant": "held_item",
-                    "item": "undergarden:glitterkelp"
-                }
-            ],
-            
-            "requiredContext": "undergarden:glitterkelp"
-
-        }
-
-
+        
 
     ],
     "baseScale": 1.1,

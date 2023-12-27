@@ -99,32 +99,6 @@
         "item": "undergarten:glitterkelp"
       }
     ]
-  },
-  {
-    "id": "pitipole_tentaquil_glowberry",
-    "variant": "item_interact",
-    "result": "tentaquil",
-    "consumeHeldItem": false,
-    "learnableMoves": [],
-    "requirements": [],
-    "requiredContext": "minecraft:glow_berries"
-  },
-  {
-    "id": "pitipole_tentaquil_lvl",
-    "variant": "level_up",
-    "result": "tentaquil mischief",
-    "consumeHeldItem": false,
-    "learnableMoves": [],
-    "requirements": [
-      {
-        "variant": "level",
-        "minLevel": 100
-      },
-      {
-        "variant": "biome",
-        "biomeCondition": "#minecraft:is_beach"
-      }
-    ]
   }
 ],
 

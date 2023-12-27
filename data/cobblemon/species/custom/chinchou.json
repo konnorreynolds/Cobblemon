@@ -200,12 +200,18 @@
     },
     {
       "id": "chinchou_crownedlantern",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "crownedlanturn",
-      "consumeHeldItem": true,
+      "consumeHeldItem": false,
       "learnableMoves": ["spark"],
-      "requirements": [],
-      "requiredContext": "undergarden:glitterkelp"
+      "requirements": [
+
+        {
+          "variant":"level",
+          "minLevel": 1
+        }
+
+      ]
 
     }
   ],

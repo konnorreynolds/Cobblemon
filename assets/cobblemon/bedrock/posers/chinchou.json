@@ -52,16 +52,6 @@
           ]
         }
       ]
-    },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [ 
-        "SWIM" 
-      ],
-      "animations": [ 
-        "bedrock(chinchou, swim_idle)" 
-      ]
     }
   }
 }

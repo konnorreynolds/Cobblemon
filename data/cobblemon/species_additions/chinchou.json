@@ -2,7 +2,7 @@
     "target": "cobblemon:chinchou",
     "evolutions":[
         {
-            "id": "chinchou_crowned",
+            "id": "chinchou_crownedlanturn",
             "variant": "level_up",
             "result": "crownedlanturn",
             "consumeHeldItem": true,

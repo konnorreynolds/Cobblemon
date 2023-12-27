@@ -1,0 +1,19 @@
+{
+    "target": "cobblemon:boldore",
+    "evolutions":[
+        {
+            "id": "boldore_crownedgigalith",
+            "variant": "level_up",
+            "result": "crownedgigalith",
+            "consumeHeldItem": true,
+            "learnableMoves": [ "moonblast" ],
+            "requirements": [
+                {
+                    "variant": "held_item",
+                    "minLevel": 50,
+                    "itemCondition": "aether:gravitite_ore"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "target": "cobblemon:torterra",
+    "features": [
+        "aether",
+        "undergarden"
+    ]
+}

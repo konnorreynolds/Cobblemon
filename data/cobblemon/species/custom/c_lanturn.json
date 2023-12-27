@@ -1,125 +1,114 @@
 {
-    "implemented": true,
-    "name": "c_lanturn",
-    "nationalPokedexNumber": 2000,
-    "primaryType": "poison",
-	"secondaryType": "water",
-    "abilities": [
-        "effect_spore",
-        "gluttony",
-        "h:quick_feet"
-    ],
-
-    "baseStats": {
-        "hp": 130,
-        "attack": 58,
-        "defence": 68,
-        "special_attack": 106,
-        "special_defence": 76,
-        "speed": 77
-    },
-    "catchRate": 28,
-    "maleRatio": -1,
-    "shoulderMountable": false,
-    "forms": [],
-    "baseExperienceYield": 270,
-    "experienceGroup": "fluctuating",
-    "eggCycles": 25,
-    "eggGroups": [
-        "water_1",
-        "water_2"
-    ],
-
-	"behaviour": {
-        "moving": {
-            "canLook": false,
-            "walk": {
-                "avoidsLand": true
-            },
-            "swim": {
-                "swimSpeed": 0.2,
-                "canSwimInWater": true,
-				"canBreatheUnderwater": true
-            },
-            "wanderChance": 1
-        }
-    },
-	"features": [
-        "crowned"
-    ],
-
-
-    "drops": {
-        "amount": "1",
-        "entries": [
-            {
-                "item": "cobblemon:poison_barb",
-                "quantityRange": "1",
-                "percentage": 8
-            }
-        ]
-
-    },
-    "moves": [
-		"egg:confuse_ray",
+  "implemented": true,
+  "name": "c_lanturn",
+  "nationalPokedexNumber": 171,
+  "primaryType": "poison",
+  "secondaryType": "ground",
+  "abilities": [
+    "effect_spore",
+    "gluttony",
+    "h:quick_feet"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:prismarine_crystals",
+        "quantityRange": "1",
+        "percentage": 8
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 130,
+    "attack": 58,
+    "defence": 68,
+    "special_attack": 106,
+    "special_defence": 76,
+    "speed": 77
+  },
+  "catchRate": 28,
+  "maleRatio": 0.1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 270,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 25,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "avoidsLand": true
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "moves": [
+    "egg:confuse_ray",
 		"egg:thunder_bolt",
-        "egg:ice_beam",
+    "egg:ice_beam",
 		"1:stun_spore",
-        "1:lick",
-        "1:poison_gas",
-        "1:acid_spray",
-        "5:mud_slap",
-        "6:bubble_beam",
-        "8:sand_attack",
-        "13:vine_whip",
-        "20:body_slam",
-        "23:mud_bomb",
-        "24:toxic",
-        "32:sludge_bomb",
-        "33:belch",
-        "54:shore_up",
-        "61:syrup_bomb",
-        "72:chloroblast",
-        "tm:venoshock",
-        "tm:gunk_shot",
-        "tm:sludge_wave",
-        "tm:sweet_scent",
-        "tm:venom_drench",
-        "tm:dazzling_gleam",
-        "tm:dark_pulse",
-        "tm:knock_off",
-        "tm:iron_tail",
-        "tm:rock_tomb",
-        "tutor:poison_tail",
-        "tutor:acid_armor",
-        "tutor:rest",
-        "tutor:ancient_power",
-        "tutor:muddy_water"
-    ],
-    "labels": [
-        "custom"
-    ],
-    "pokedex": [
-        "cobblemon.species.c_lanturn.desc1",
-        "cobblemon.species.c_lanturn.desc2"
-    ],
-    "evolutions": [
-        
-        
-
-
-    ],
-    "baseScale": 1.1,
-    "hitbox": {
-        "width": 0.9,
-        "height": 1.4,
-        "fixed": false
-    },
-    "baseFriendship": 35,
-    "evYield": {
-        "hp": 2,
-        "special_defence": 1
-    },
-    "height": 4,
-    "weight": 74
+    "1:lick",
+    "1:poison_gas",
+    "1:acid_spray",
+    "5:mud_slap",
+    "6:bubble_beam",
+    "8:sand_attack",
+    "13:vine_whip",
+    "20:body_slam",
+    "23:mud_bomb",
+    "24:toxic",
+    "32:sludge_bomb",
+    "33:belch",
+    "54:shore_up",
+    "61:syrup_bomb",
+    "72:chloroblast",
+    "tm:venoshock",
+    "tm:gunk_shot",
+    "tm:sludge_wave",
+    "tm:sweet_scent",
+    "tm:venom_drench",
+    "tm:dazzling_gleam",
+    "tm:dark_pulse",
+    "tm:knock_off",
+    "tm:iron_tail",
+    "tm:rock_tomb",
+    "tutor:poison_tail",
+    "tutor:acid_armor",
+    "tutor:rest",
+    "tutor:ancient_power",
+    "tutor:muddy_water"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.c_lanturn.desc"
+  ],
+  "preEvolution": "chinchou",
+  "evolutions": [],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 225,
+  "aspects": [],
+  "cannotDynamax": false
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
-  "name": "Chinchou",
-  "nationalPokedexNumber": 170,
+  "name": "Lanturn",
+  "nationalPokedexNumber": 171,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -10,34 +10,112 @@
     "h:waterabsorb"
   ],
   "drops": {
-    "amount": 3,
+    "amount": 4,
     "entries": [
       {
         "item": "minecraft:prismarine_crystals",
-        "quantityRange": "0-1"
+        "quantityRange": "0-2"
       },
       {
         "item": "cobblemon:deep_sea_scale",
-        "percentage": 2.5
+        "percentage": 5.0
       },
       {
         "item": "cobblemon:persim_berry",
-        "percentage": 2.5
+        "percentage": 5.0
       }
     ]
   },
   "baseStats": {
-    "hp": 75,
-    "attack": 38,
-    "defence": 38,
-    "special_attack": 56,
-    "special_defence": 56,
+    "hp": 125,
+    "attack": 58,
+    "defence": 58,
+    "special_attack": 76,
+    "special_defence": 76,
     "speed": 67
   },
-  "catchRate": 190,
+  "catchRate": 75,
   "maleRatio": 0.5,
   "shoulderMountable": false,
-  "baseExperienceYield": 66,
+  "forms": [
+    {
+
+      "name": "Crowned",
+      "primaryType": "poison",
+      "secondaryType": "ground",
+      "abilities": [
+        "effectspore",
+        "gluttony",
+        "h:quickfeet"
+      ],
+      "baseStats": {
+        "hp": 130,
+        "attack": 58,
+        "defence": 68,
+        "special_attack": 106,
+        "special_defence": 76,
+        "speed": 77
+      },
+      "catchRate": 28,
+      "maleRatio": 0.1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 270,
+      "experienceGroup": "fluctuating",
+      "eggCycles": 25,
+      "eggGroups": [
+        "water_1",
+        "water_2"
+      ],
+
+      "moves": [
+        "egg:confuseray",
+        "egg:thunderbolt",
+        "egg:ice_beam",
+        "1:stunspore",
+        "1:lick",
+        "1:poisongas",
+        "1:acidspray",
+        "5:mudslap",
+        "6:bubblebeam",
+        "8:sandattack",
+        "13:vinewhip",
+        "20:bodyslam",
+        "23:mudbomb",
+        "24:toxic",
+        "32:sludgebomb",
+        "33:belch",
+        "54:shoreup",
+        "61:syrupbomb",
+        "72:chloroblast",
+        "tm:venoshock",
+        "tm:gunkshot",
+        "tm:sludgewave",
+        "tm:sweetscent",
+        "tm:venomdrench",
+        "tm:dazzlinggleam",
+        "tm:darkpulse",
+        "tm:knockoff",
+        "tm:irontail",
+        "tm:rocktomb",
+        "tutor:poisontail",
+        "tutor:acidarmor",
+        "tutor:rest",
+        "tutor:ancientpower",
+        "tutor:muddywater"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "pokedex": [
+        "cobblemon.species.crownedlanturn.desc"
+      ]
+
+    }
+
+  ],
+
+
+  "baseExperienceYield": 161,
   "experienceGroup": "slow",
   "eggCycles": 20,
   "eggGroups": [
@@ -45,46 +123,37 @@
   ],
   "behaviour": {
     "moving": {
-      "canLook": false,
       "walk": {
         "avoidsLand": true
       },
       "swim": {
-        "swimSpeed": 0.1,
         "canSwimInWater": true,
         "canBreatheUnderwater": true
       }
     }
   },
   "moves": [
-    "28:originpulse",
     "1:bubble",
+    "1:eerieimpulse",
+    "1:electroball",
+    "1:spitup",
+    "1:spotlight",
+    "1:stockpile",
     "1:supersonic",
+    "1:swallow",
+    "1:thunderwave",
     "1:watergun",
-    "4:electroball",
-    "8:thunderwave",
     "12:bubblebeam",
     "16:confuseray",
     "20:spark",
     "24:charge",
-    "28:discharge",
-    "28:signalbeam",
-    "32:aquaring",
-    "36:flail",
-    "40:takedown",
-    "44:hydropump",
-    "47:iondeluge",
-    "egg:agility",
-    "egg:amnesia",
-    "egg:brine",
-    "egg:flail",
-    "egg:mist",
-    "egg:psybeam",
-    "egg:screech",
-    "egg:shockwave",
-    "egg:soak",
-    "egg:waterpulse",
-    "egg:whirlpool",
+    "29:signalbeam",
+    "30:discharge",
+    "36:aquaring",
+    "42:flail",
+    "48:takedown",
+    "54:hydropump",
+    "54:iondeluge",
     "tm:agility",
     "tm:amnesia",
     "tm:attract",
@@ -97,14 +166,17 @@
     "tm:dazzlinggleam",
     "tm:dive",
     "tm:doubleteam",
+    "tm:eerieimpulse",
     "tm:electroball",
     "tm:endure",
     "tm:facade",
     "tm:flash",
     "tm:frustration",
+    "tm:gigaimpact",
     "tm:hail",
     "tm:hiddenpower",
     "tm:hydropump",
+    "tm:hyperbeam",
     "tm:icebeam",
     "tm:icywind",
     "tm:naturalgift",
@@ -131,7 +203,7 @@
     "tm:waterpulse",
     "tm:whirlpool",
     "tm:wildcharge",
-    "tutor:amnesia",
+    "tutor:aquatail",
     "tutor:attract",
     "tutor:bounce",
     "tutor:bubble",
@@ -147,6 +219,7 @@
     "tutor:healbell",
     "tutor:hiddenpower",
     "tutor:hydropump",
+    "tutor:hyperbeam",
     "tutor:icywind",
     "tutor:mimic",
     "tutor:protect",
@@ -154,7 +227,6 @@
     "tutor:rest",
     "tutor:return",
     "tutor:risingvoltage",
-    "tutor:screech",
     "tutor:shockwave",
     "tutor:signalbeam",
     "tutor:sleeptalk",
@@ -179,44 +251,11 @@
     "gen2"
   ],
   "pokedex": [
-    "cobblemon.species.chinchou.desc"
+    "cobblemon.species.lanturn.desc"
   ],
-  "evolutions": [
-    {
-      "id": "chinchou_lanturn",
-      "variant": "level_up",
-      "result": "lanturn",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "spitup",
-        "stockpile",
-        "swallow"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 27
-        }
-      ]
-    },
-    {
-      "id": "chinchou_crowned",
-      "variant": "level_up",
-      "result": "crowned",
-      "consumeHeldItem": false,
-      "learnableMoves": ["spark"],
-      "requirements": [
-
-        {
-          "variant":"level",
-          "minLevel": 1
-        }
-
-      ]
-
-    }
-  ],
-  "baseScale": 0.6,
+  "preEvolution": "chinchou",
+  "evolutions": [],
+  "baseScale": 1,
   "hitbox": {
     "width": 1,
     "height": 1,
@@ -224,15 +263,15 @@
   },
   "baseFriendship": 50,
   "evYield": {
-    "hp": 1,
+    "hp": 2,
     "attack": 0,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 5,
-  "weight": 120,
+  "height": 12,
+  "weight": 225,
   "aspects": [],
   "cannotDynamax": false
 }

@@ -200,17 +200,12 @@
     },
     {
       "id": "chinchou_crownedlantern",
-      "variant": "level_up",
+      "variant": "item_interact",
       "result": "crownedlanturn",
       "consumeHeldItem": true,
       "learnableMoves": ["spark"],
-      "requirements": [
-          {
-              "variant": "held_item",
-              "minLevel": 51,
-              "itemCondition": "minecraft:cooked_beef"
-          }
-      ]
+      "requirements": [],
+      "requiredContext": "undergarden:glitterkelp"
 
     }
   ],

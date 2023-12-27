@@ -1,0 +1,67 @@
+{
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [
+    0,
+    -1.5,
+    0
+  ],
+  "profileScale": 2,
+  "profileTranslation": [
+    0,
+    -1.5,
+    0
+  ],
+  "faint": "bedrock(chinchou, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "bedrock(chinchou, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(chinchou, blink)"
+          ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "bedrock(chinchou, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(chinchou, blink)"
+          ]
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ 
+        "SWIM" 
+      ],
+      "animations": [ 
+        "bedrock(chinchou, water_swim)" 
+      ]
+    }
+  }
+}

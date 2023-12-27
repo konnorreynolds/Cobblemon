@@ -57,6 +57,7 @@
     }
   },
   "moves": [
+    "28:originpulse",
     "1:bubble",
     "1:supersonic",
     "1:watergun",

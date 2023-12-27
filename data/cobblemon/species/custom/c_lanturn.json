@@ -13,9 +13,9 @@
     "amount": 1,
     "entries": [
       {
-        "item": "minecraft:cooked_beef",
+        "item": "cobblemon:poisoned_barb",
         "quantityRange": "1",
-        "percentage": 8
+        "percentage": 100
       }
     ]
   },

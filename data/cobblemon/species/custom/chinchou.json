@@ -199,19 +199,19 @@
       ]
     },
     {
-      "id": "chinchou_lantern_trade",
+      "id": "chinchou_lantern",
       "variant": "level_up",
-      "result": "lanturn crowned",
+      "result": "c_lanturn",
       "consumeHeldItem": true,
       "learnableMoves": ["spark"],
       "requirements": [
           {
               "variant": "held_item",
-              "item": "minecraft:cooked_beef"
+              "item": "undergarden:glitterkelp"
           }
       ],
       
-      "requiredContext": "minecraft:cooked_beef"
+      "requiredContext": "undergarden:glitterkelp"
 
     }
   ],

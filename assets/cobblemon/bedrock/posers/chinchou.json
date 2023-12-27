@@ -60,7 +60,7 @@
         "SWIM" 
       ],
       "animations": [ 
-        "bedrock(chinchou, water_swim)" 
+        "bedrock(chinchou, swim_idle)" 
       ]
     }
   }

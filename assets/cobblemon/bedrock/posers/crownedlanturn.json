@@ -17,20 +17,20 @@
         ],
         "animations": [
           "look",
-          "bedrock(c_lanturn, ground_idle)"
+          "bedrock(crownedlanturn, ground_idle)"
         ]
       },
       "walking": {
         "poseName": "walking",
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(c_lanturn, ground_idle)" ]
+        "animations": [ "bedrock(crownedlanturn, ground_idle)" ]
       },
       "swimming": {
         "poseName": "swimming",
         "transformTicks": 10,
         "poseTypes": [ "SWIM" ],
-        "animations": [ "bedrock(c_lanturn, water_swim)" ]
+        "animations": [ "bedrock(crownedlanturn, water_swim)" ]
       }
     }
   }

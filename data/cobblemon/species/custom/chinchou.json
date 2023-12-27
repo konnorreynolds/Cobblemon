@@ -199,9 +199,9 @@
       ]
     },
     {
-      "id": "chinchou_c_lantern",
+      "id": "chinchou_crownedlantern",
       "variant": "level_up",
-      "result": "c_lanturn",
+      "result": "crownedlanturn",
       "consumeHeldItem": true,
       "learnableMoves": ["spark"],
       "requirements": [

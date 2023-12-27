@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.c_lanturn.ground_idle": {
+		"animation.crownedlanturn.ground_idle": {
 			"loop": true,
 			"bones": {
 				"stem": {
@@ -45,7 +45,7 @@
 				}
 			}
 		},
-		"animation.c_lanturn.water_swim": {
+		"animation.crownedlanturn.water_swim": {
 			"loop": true,
 			"animation_length": 0.625,
 			"bones": {
@@ -110,7 +110,7 @@
 				}
 			}
 		},
-		"animation.c_lanturn.blink": {
+		"animation.crownedlanturn.blink": {
 			"animation_length": 0.16667,
 			"bones": {
 				"eyelid_left": {
@@ -129,7 +129,7 @@
 				}
 			}
 		},
-		"animation.c_lanturn.cry": {
+		"animation.crownedlanturn.cry": {
 			"animation_length": 1.5,
 			"bones": {
 				"neck": {

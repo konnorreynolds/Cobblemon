@@ -8,6 +8,7 @@
       "model": "cobblemon:chinchou.geo",
       "texture": "cobblemon:textures/pokemon/chinchou/chinchou.png"
     },
+    
     {
       "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/chinchou/chinchou_shiny.png"

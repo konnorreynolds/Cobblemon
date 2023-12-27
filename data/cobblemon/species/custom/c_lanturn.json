@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+"name": "lanturn",
+"labels": [ "custom" ],
+"pokedex": [
+"cobblemon.species.c_lanturn.desc1",
+"cobblemon.species.c_lanturn.desc2"
+],
+"height": 4,
+"weight": 74,
+"preEvolution": "chinchou",
+"features": [ "crowned" ],
+"forms": [
+{ "name": "crowned" }
+],
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+
+
+"primaryType": "poison",
+"secondaryType": "ground",
+"baseStats": {
+"hp": 130,
+"attack": 58,
+"defence": 68,
+"special_attack": 106,
+"special_defence": 76,
+"speed": 77
+},
+"catchRate": 15,
+"maleRatio": -1,
+"baseExperienceYield": 270,
+"experienceGroup": "fluctuating",
+"eggCycles": 25,
+"eggGroups": [
+"water_1",
+"monster"
+],
+"baseFriendship": 35,
+"evYield": {
+"hp": 2,
+"special_deffence": 1
+}, 
+
+"moves": [
+  "egg:confuse_ray",
+  "egg:thunder_bolt",
+  "egg:ice_beam",
+  "1:stun_spore",
+  "1:lick",
+  "1:poison_gas",
+  "1:acid_spray",
+  "5:mud_slap",
+  "6:bubble_beam",
+  "8:sand_attack",
+  "13:vine_whip",
+  "20:body_slam",
+  "23:mud_bomb",
+  "24:toxic",
+  "32:sludge_bomb",
+  "33:belch",
+  "54:shore_up",
+  "61:syrup_bomb",
+  "72:chloroblast",
+  "tm:venoshock",
+  "tm:gunk_shot",
+  "tm:sludge_wave",
+  "tm:sweet_scent",
+  "tm:venom_drench",
+  "tm:dazzling_gleam",
+  "tm:dark_pulse",
+  "tm:knock_off",
+  "tm:iron_tail",
+  "tm:rock_tomb",
+  "tutor:poison_tail",
+  "tutor:acid_armor",
+  "tutor:rest",
+  "tutor:ancient_power",
+  "tutor:muddy_water"
+],
+"abilities": [
+  "effect_spore",
+  "Gluttony",
+  "h:quick_feet"
+],
+
+
+"evolutions": [
+  {
+    "id": "pitipole_tentaquil_trade",
+    "variant": "trade",
+    "result": "lanturn crowned",
+    "consumeHeldItem": true,
+    "learnableMoves": [ "spark" ],
+    "requirements": [
+      {
+        "variant": "held_item",
+        "item": "undergarten:glitterkelp"
+      }
+    ]
+  },
+  {
+    "id": "pitipole_tentaquil_glowberry",
+    "variant": "item_interact",
+    "result": "tentaquil",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "minecraft:glow_berries"
+  },
+  {
+    "id": "pitipole_tentaquil_lvl",
+    "variant": "level_up",
+    "result": "tentaquil mischief",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 100
+      },
+      {
+        "variant": "biome",
+        "biomeCondition": "#minecraft:is_beach"
+      }
+    ]
+  }
+],
+
+
+"baseScale": 1.1,
+"hitbox": {
+  "width": 0.9,
+  "height": 1.4,
+  "fixed": false
+},
+"drops": {
+"amount": "1",
+  "entries": [
+    {
+      "item": "cobblemon:poison_barb",
+      "quantityRange": "1",
+      "percentage": 8
+    }
+  ]
+},
+"behaviour": {
+  "moving": {
+    "canLook": false,
+    "fly": {
+      "canFly": false
+    },          
+    "swim": {
+      "swimSpeed": 0.2,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": true
+    }
+  }
+}
+}

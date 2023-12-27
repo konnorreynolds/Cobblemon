@@ -207,7 +207,7 @@
       "requirements": [
           {
               "variant": "held_item",
-              "itemCondition": "undergarden:glitterkelp"
+              "itemCondition": "minecraft:cooked_beef"
           }
       ]
 

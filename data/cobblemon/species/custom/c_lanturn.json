@@ -88,9 +88,9 @@
 
 "evolutions": [
   {
-    "id": "pitipole_tentaquil_trade",
-    "variant": "trade",
-    "result": "lanturn crowned",
+    "id": "chinchou_lantern_trade",
+    "variant": "level_up",
+    "result": "lanturn_crowned",
     "consumeHeldItem": true,
     "learnableMoves": [ "spark" ],
     "requirements": [

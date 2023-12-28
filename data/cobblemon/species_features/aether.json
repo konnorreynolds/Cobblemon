@@ -1,0 +1,11 @@
+{
+    "type": "choice",
+    "keys": ["aether"],
+    "default": "false",
+    "choices": [
+      "aether",
+      "undergarden"
+    ],
+    "isAspect": true,
+    "aspectFormat": "tree-{{choice}}"
+  }

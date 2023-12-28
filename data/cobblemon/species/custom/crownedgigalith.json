@@ -3,7 +3,7 @@
   "name": "crownedgigalith",
   "nationalPokedexNumber": 526,
   "primaryType": "rock",
-  "secondary": "fairy",
+  "secondaryType": "fairy",
   "abilities": [
     "levitate",
     "h:tintedlens"

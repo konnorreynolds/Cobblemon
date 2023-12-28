@@ -9,8 +9,8 @@
             "learnableMoves": [ "moonblast" ],
             "requirements": [
                 {
-                    "variant": "held_item",
                     "minLevel": 50,
+                    "variant": "held_item",
                     "itemCondition": "aether:gravitite_ore"
                 }
             ]

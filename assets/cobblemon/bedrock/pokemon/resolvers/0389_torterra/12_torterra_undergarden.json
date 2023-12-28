@@ -1,0 +1,20 @@
+
+{
+    "species": "cobblemon:torterra",
+    "order": 12,
+    "variations": [
+      {
+        "aspects": ["tree-undergarden"],
+        "poser": "cobblemon:torterra",
+        "model": "cobblemon:torterra_undergarden.geo",
+        "texture": "cobblemon:textures/pokemon/torterra/torterra_undergarden.png",
+        "layers": []
+      },
+      {
+        "aspects": [ 
+          "shiny", "tree-undergarden" 
+        ],
+        "texture": "cobblemon:textures/pokemon/torterra/torterra_undergarden_shiny.png"
+      }
+    ]
+  }

@@ -1,0 +1,20 @@
+
+{
+    "species": "cobblemon:torterra",
+    "order": 11,
+    "variations": [
+      {
+        "aspects": ["tree-aether"],
+        "poser": "cobblemon:torterra",
+        "model": "cobblemon:torterra_aether.geo",
+        "texture": "cobblemon:textures/pokemon/torterra/torterra_aether.png",
+        "layers": []
+      },
+      {
+        "aspects": [ 
+          "shiny", "tree-aether" 
+        ],
+        "texture": "cobblemon:textures/pokemon/torterra/torterra_aether_shiny.png"
+      }
+    ]
+  }

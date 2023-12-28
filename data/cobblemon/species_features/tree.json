@@ -1,11 +1,24 @@
 {
-    "type": "choice",
-    "keys": ["tree"],
-    "default": "false",
-    "choices": [
-      "aether",
-      "undergarden"
-    ],
-    "isAspect": true,
-    "aspectFormat": "tree-{{choice}}"
-  }
+  "type": "choice",
+  "keys": ["tree"],
+  "default": "false",
+  "choices": [
+    "oak",
+    "birch",
+    "darkoak",
+    "acacia",
+    "azalea",
+    "swamp",
+    "jungle",
+    "spruce",
+    "mangrove",
+    "cherry",
+    "apricorn",
+    "crimson",
+    "warped",
+    "aether",
+    "undergarden"
+  ],
+  "isAspect": true,
+  "aspectFormat": "tree-{{choice}}"
+}

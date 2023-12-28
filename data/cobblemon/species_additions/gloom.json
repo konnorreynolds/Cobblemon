@@ -1,0 +1,19 @@
+{
+    "target": "cobblemon:gloom",
+    "evolutions":[
+        {
+            "id": "gloom_crownedvileplume",
+            "variant": "level_up",
+            "result": "crownedvileplume",
+            "consumeHeldItem": true,
+            "learnableMoves": [  ],
+            "requirements": [
+                {
+                    "minLevel": 36,
+                    "variant": "biome",
+                    "biomeCondition": "#aether:is_skyroot_meadow"
+                }
+            ]
+        }
+    ]
+}

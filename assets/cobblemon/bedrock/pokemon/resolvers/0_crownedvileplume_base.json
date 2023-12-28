@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:crownedvileplume",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crownedvileplume",
+      "model": "cobblemon:crownedvileplume.geo",
+      "texture": "cobblemon:textures/pokemon/crownedvileplume/crownedvileplume.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/crownedvileplume/crownedvileplume_shiny.png"
+    }
+  ]
+}

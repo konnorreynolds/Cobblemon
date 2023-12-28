@@ -4,7 +4,7 @@
     "portraitTranslation": [ 0, 0.5, 0 ],
     "profileScale": 0.8,
     "profileTranslation": [ 0, 0.4, 0 ],
-    "faint": "bedrock(c_torterra, faint)",
+    "faint": "bedrock(torterra, faint)",
     "poses": {
       "standing": {
         "poseName": "standing",
@@ -17,20 +17,20 @@
         ],
         "animations": [
           "look",
-          "bedrock(c_torterra, ground_idle)"
+          "bedrock(torterra, ground_idle)"
         ]
       },
       "walking": {
         "poseName": "walking",
         "transformTicks": 10,
         "poseTypes": [ "WALK" ],
-        "animations": [ "bedrock(c_torterra, ground_walk)" ]
+        "animations": [ "bedrock(torterra, ground_walk)" ]
       },
       "floating": {
         "poseName": "floating",
         "transformTicks": 10,
         "poseTypes": [ "FLOAT" ],
-        "animations": [ "bedrock(c_torterra, water_idle)" ]
+        "animations": [ "bedrock(torterra, water_idle)" ]
       }
     }
   }

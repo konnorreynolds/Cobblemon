@@ -1,6 +1,6 @@
 {
     "type": "choice",
-    "keys": ["aether"],
+    "keys": ["tree"],
     "default": "false",
     "choices": [
       "aether",

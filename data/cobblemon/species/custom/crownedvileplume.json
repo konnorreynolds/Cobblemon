@@ -2,18 +2,19 @@
   "implemented": true,
   "name": "Crowned Vileplume",
   "nationalPokedexNumber": 45,
-  "primaryType": "grass",
-  "secondaryType": "fire",
+  "primaryType": "poison",
+  "secondaryType": "water",
   "abilities": [
-    "chlorophyll",
-    "h:effectspore"
+    "triage",
+    "friendguard",
+    "h:prankster"
   ],
   "drops": {
     "amount": 1,
     "entries": [
       {
-        "item": "cobblemon:pecha_berry",
-        "percentage": 10.0
+        "item": "cobblemon:mirror_herb",
+        "percentage": 4.0
       }
     ]
   },
@@ -46,7 +47,52 @@
     "grass"
   ],
   "moves": [
-    "1:absorb"
+    "egg:afteryou",
+    "egg:flail",
+    "egg:ingrain",
+    "egg:leechseed",
+    "egg:razorleaf",
+    "egg:strengthsap",
+    "egg:synthesis",
+    "egg:teeterdance",
+    "egg:tickle",
+    "1:absorb",
+    "48:dive",
+    "54:mortalspin",
+    "56:leechlife",
+    "57:drainpunch",
+    "62:healpulse",
+    "69:purify",
+    "72:aquacutter",
+    "tm:charm",
+    "tm:protect",
+    "tm:acidspray",
+    "tm:trailblaze",
+    "tm:facade",
+    "tm:magicalleaf",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:bulletseed",
+    "tm:sleeptalk",
+    "tm:seedbomb",
+    "tm:grasknot",
+    "tm:rest",
+    "tm:rest",
+    "tm:swordsdance",
+    "tm:substitute",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:helpinghand",
+    "tm:pollenpuff",
+    "tm:grassyterrain",
+    "tm:sludgebomb",
+    "tm:leafstorm",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:grassyglide",
+    "tm:petalblizzard"
   ],
   "labels": [
     "gen1"

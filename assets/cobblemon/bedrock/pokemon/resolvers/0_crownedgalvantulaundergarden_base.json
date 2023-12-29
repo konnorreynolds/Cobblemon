@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:crownedgalvantulaundergarden",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crownedgalvantulaundergarden",
+      "model": "cobblemon:crownedgalvantulaundergarden.geo",
+      "texture": "cobblemon:textures/pokemon/crownedgalvantulaundergarden/crownedgalvantulaundergarden.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/crownedgalvantulaundergarden/crownedgalvantulaundergarden_shiny.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.galvantula.ground_idle": {
+		"animation.crownedgalvantulaaether.ground_idle": {
 			"loop": true,
 			"bones": {
 				"leg_right": {
@@ -75,7 +75,7 @@
 				}
 			}
 		},
-		"animation.galvantula.ground_walk": {
+		"animation.crownedgalvantulaaether.ground_walk": {
 			"loop": true,
 			"bones": {
 				"leg_right": {
@@ -148,7 +148,7 @@
 				}
 			}
 		},
-		"animation.galvantula.cry": {
+		"animation.crownedgalvantulaaether.cry": {
 			"animation_length": 1.5,
 			"bones": {
 				"torso": {
@@ -308,7 +308,7 @@
 				}
 			}
 		},
-		"animation.galvantula.blink1": {
+		"animation.crownedgalvantulaaether.blink1": {
 			"animation_length": 0.16667,
 			"bones": {
 				"eyelids_right": {
@@ -327,7 +327,7 @@
 				}
 			}
 		},
-		"animation.galvantula.blink2": {
+		"animation.crownedgalvantulaaether.blink2": {
 			"animation_length": 0.16667,
 			"bones": {
 				"forehead_eyelids": {

@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.galvantula",
+				"identifier": "geometry.crownedgalvantulaundergarden",
 				"texture_width": 128,
 				"texture_height": 128,
 				"visible_bounds_width": 4,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "galvantula",
+					"name": "crownedgalvantulaundergarden",
 					"pivot": [0, 0, 3]
 				},
 				{
 					"name": "body",
-					"parent": "galvantula",
+					"parent": "crownedgalvantulaundergarden",
 					"pivot": [0, 0, 3]
 				},
 				{

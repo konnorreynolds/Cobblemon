@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:crownedjoltikaether",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crownedjoltikaether",
+      "model": "cobblemon:crownedjoltikaether.geo",
+      "texture": "cobblemon:textures/pokemon/crownedjoltikaether/crownedjoltikaether.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/crownedjoltikaether/crownedjoltikaether_shiny.png",
+      "layers": []
+    }
+  ]
+}

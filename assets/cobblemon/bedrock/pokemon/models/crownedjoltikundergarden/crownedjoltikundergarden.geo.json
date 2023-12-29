@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.unknown",
+				"identifier": "geometry.crownedjoltikundergarden",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 2,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "joltik",
+					"name": "crownedjoltikundergarden",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "joltik",
+					"parent": "crownedjoltikundergarden",
 					"pivot": [0, 0, -1.25]
 				},
 				{

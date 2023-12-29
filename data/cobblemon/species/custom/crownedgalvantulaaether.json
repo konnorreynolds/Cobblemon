@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "Galvantula",
+  "name": "Aether Crowned Galvantula",
   "nationalPokedexNumber": 596,
   "primaryType": "bug",
   "secondaryType": "electric",
@@ -10,23 +10,11 @@
     "h:swarm"
   ],
   "drops": {
-    "amount": 7,
+    "amount": 1,
     "entries": [
       {
         "item": "minecraft:string",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "minecraft:rotten_flesh",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "cobblemon:nanab_berry",
-        "percentage": 5.0
+        "percentage": 10
       }
     ]
   },
@@ -139,12 +127,12 @@
     "tutor:throatchop"
   ],
   "labels": [
-    "gen5"
+    "custom"
   ],
   "pokedex": [
-    "cobblemon.species.galvantula.desc"
+    "cobblemon.species.crownedgalvantulaaether.desc"
   ],
-  "preEvolution": "joltik",
+  "preEvolution": "crownedjoltikaether",
   "evolutions": [],
   "baseScale": 1,
   "hitbox": {

@@ -1,11 +1,11 @@
 {
     "enabled": "true",
-    "neededInstalledMods": ["undergarden"],
+    "neededInstalledMods": ["aether"],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "crownedarmarouge-1",
-            "pokemon": "crownedarmarouge",
+            "id": "crownedvileplume-1",
+            "pokemon": "crownedvileplume",
             "presets": [
                 "natural"
             ],
@@ -17,7 +17,7 @@
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
-                    "undergarden:frostfields"
+                    "#aether:is_aether"
                 ]
             }
         }

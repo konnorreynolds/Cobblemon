@@ -1,0 +1,47 @@
+{
+    "target": "cobblemon:grotle",
+    "evolutions":[
+        {
+            "id": "grotle_torterra_aether",
+            "variant": "level_up",
+            "result": "torterra tree=aether",
+            "consumeHeldItem": true,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 32
+                },
+                {
+                    "variant": "held_item",
+                    "itemCondition": "aether:crystal_leaves"
+                },
+                {
+                    "variant": "biome",
+                    "biomeCondition": "#aether:is_aether"
+                }
+            ]
+        },
+        {
+            "id": "grotle_torterra_undergarden",
+            "variant": "level_up",
+            "result": "torterra tree=undergarden",
+            "consumeHeldItem": true,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 32
+                },
+                {
+                    "variant": "held_item",
+                    "itemCondition": "undergarden:wigglewood_leaves"
+                },
+                {
+                    "variant": "biome",
+                    "biomeCondition": "#undergarden:is_undergarden"
+                }
+            ]
+        }
+    ]
+}

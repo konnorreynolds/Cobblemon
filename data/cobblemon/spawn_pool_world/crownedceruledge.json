@@ -1,11 +1,11 @@
 {
     "enabled": "true",
-    "neededInstalledMods": ["undergarden"],
+    "neededInstalledMods": ["aether"],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "crownedarmarouge-1",
-            "pokemon": "crownedarmarouge",
+            "id": "crownedceruledge-1",
+            "pokemon": "crownedceruledge",
             "presets": [
                 "natural"
             ],
@@ -16,9 +16,8 @@
             "weight": 0.1,
             "condition": {
                 "canSeeSky": false,
-                "biomes": [
-                    "undergarden:frostfields"
-                ]
+                "structures": ["aether:silver_dungeon"],
+                "neededNearbyBlocks": ["aether:angelic_stone"]
             }
         }
     ]

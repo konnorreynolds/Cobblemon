@@ -1,11 +1,11 @@
 {
     "enabled": "true",
-    "neededInstalledMods": ["undergarden"],
+    "neededInstalledMods": ["aether"],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "crownedarmarouge-1",
-            "pokemon": "crownedarmarouge",
+            "id": "crownedgalvantulaaether-1",
+            "pokemon": "crownedgalvantulaaether",
             "presets": [
                 "natural"
             ],
@@ -13,13 +13,12 @@
             "context": "grounded",
             "bucket": "ultra-rare",
             "level": "80-100",
-            "weight": 0.1,
+            "weight": 1,
             "condition": {
                 "canSeeSky": false,
-                "biomes": [
-                    "undergarden:frostfields"
-                ]
-            }
+                "biomes": ["#aether:is_aether"],
+                "needNearbyBlocks": ["aether:cold_aerocloud"]
+                }
         }
     ]
 }

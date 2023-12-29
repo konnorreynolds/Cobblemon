@@ -6,16 +6,12 @@
         {
             "id": "crownedceruledge-1",
             "pokemon": "crownedceruledge",
-            "presets": [
-                "natural"
-            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
+            "bucket": "common",
             "level": "80-100",
             "weight": 1,
             "condition": {
-                "canSeeSky": false,
                 "structures": ["aether:silver_dungeon"],
                 "neededNearbyBlocks": ["aether:angelic_stone"]
             }

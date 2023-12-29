@@ -12,8 +12,8 @@
     "amount": 1,
     "entries": [
       {
-        "item": "cobblemon:pecha_berry",
-        "percentage": 10.0
+        "item": "cobblemon:mirror_herb",
+        "percentage": 2
       }
     ]
   },

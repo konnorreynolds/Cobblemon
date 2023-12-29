@@ -1,11 +1,11 @@
 {
-    "target": "cobblemon:gloom",
+    "target": "cobblemon:charcadet",
     "evolutions":[
         {
-            "id": "gloom_crownedvileplume",
+            "id": "charcadet_crownedceruledge",
             "variant": "level_up",
-            "result": "crownedvileplume",
-            "consumeHeldItem": false,
+            "result": "crownedceruledge",
+            "consumeHeldItem": true,
             "learnableMoves": [],
             "requirements": [
                 {
@@ -13,16 +13,16 @@
                     "minLevel": 30
                 },
                 {
-                    "variant": "biome",
-                    "biomeCondition": "#cobblemon:is_aether"
+                    "variant": "held_item",
+                    "itemCondition": "aether:gravitite_ore"
                 }
             ]
         },
         {
-            "id": "gloom_crownedbellossom",
+            "id": "charcadet_crownedarmarouge",
             "variant": "level_up",
-            "result": "crownedbellossom",
-            "consumeHeldItem": false,
+            "result": "crownedarmarouge",
+            "consumeHeldItem": true,
             "learnableMoves": [],
             "requirements": [
                 {
@@ -30,8 +30,8 @@
                     "minLevel": 30
                 },
                 {
-                    "variant": "biome",
-                    "biomeCondition": "#cobblemon:is_aether"
+                    "variant": "held_item",
+                    "itemCondition": "undergarden:glitterkelp"
                 }
             ]
         }

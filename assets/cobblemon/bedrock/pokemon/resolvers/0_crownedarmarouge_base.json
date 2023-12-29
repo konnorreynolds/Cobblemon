@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:crownedarmarouge",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crownedarmarouge",
+      "model": "cobblemon:crownedarmarouge.geo",
+      "texture": "cobblemon:textures/pokemon/crownedarmarouge/crownedarmarouge.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crownedarmarouge/crownedarmarouge_shiny.png",
+      "layers": []
+    }
+  ]
+}

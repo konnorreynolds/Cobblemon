@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crownedbellossom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crownedbellossom",
+      "model": "cobblemon:crownedbellossom.geo",
+      "texture": "cobblemon:textures/pokemon/crownedbellossom/crownedbellossom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crownedbellossom/crownedbellossom_shiny.png"
+    }
+  ]
+}

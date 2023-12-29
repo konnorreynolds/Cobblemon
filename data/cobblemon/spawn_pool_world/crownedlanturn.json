@@ -9,7 +9,7 @@
             "presets": ["underwater"],
             "type": "pokemon",
             "context": "submerged",
-            "bucket": "common",
+            "bucket": "ultra-rare",
             "level": "80-100",
             "weight": 1,
             "condition": {

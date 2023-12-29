@@ -10,11 +10,11 @@
             "requirements": [
                 {
                     "variant": "level",
-                    "minLevel": 30
+                    "minLevel": 36
                 },
                 {
                     "variant": "biome",
-                    "biomeCondition": "#cobblemon:is_aether"
+                    "biomeCondition": "#aether:is_aether"
                 }
             ]
         },
@@ -27,11 +27,11 @@
             "requirements": [
                 {
                     "variant": "level",
-                    "minLevel": 30
+                    "minLevel": 36
                 },
                 {
                     "variant": "biome",
-                    "biomeCondition": "#cobblemon:is_aether"
+                    "biomeCondition": "#undergarden:is_undergarden"
                 }
             ]
         }

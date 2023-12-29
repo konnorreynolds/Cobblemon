@@ -10,11 +10,11 @@
             "requirements": [
                 {
                     "variant": "level",
-                    "minLevel": 30
+                    "minLevel": 42
                 },
                 {
                     "variant": "held_item",
-                    "itemCondition": "aether:gravitite_ore"
+                    "itemCondition": "aether:valkyrie_chestplate"
                 }
             ]
         },
@@ -27,11 +27,11 @@
             "requirements": [
                 {
                     "variant": "level",
-                    "minLevel": 30
+                    "minLevel": 42
                 },
                 {
                     "variant": "held_item",
-                    "itemCondition": "undergarden:glitterkelp"
+                    "itemCondition": "undergarden:froststeel_chestplate"
                 }
             ]
         }

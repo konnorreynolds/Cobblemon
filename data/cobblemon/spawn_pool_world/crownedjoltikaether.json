@@ -6,16 +6,12 @@
         {
             "id": "crownedjoltikaether-1",
             "pokemon": "crownedjoltikaether",
-            "presets": [
-                "natural"
-            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "20-30",
             "weight": 1,
             "condition": {
-                "canSeeSky": false,
                 "biomes": ["#aether:is_aether"],
                 "needNearbyBlocks": ["aether:cold_aerocloud"]
                 }

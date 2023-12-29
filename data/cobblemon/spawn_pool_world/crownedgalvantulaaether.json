@@ -6,16 +6,12 @@
         {
             "id": "crownedgalvantulaaether-1",
             "pokemon": "crownedgalvantulaaether",
-            "presets": [
-                "natural"
-            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
+            "bucket": "common",
             "level": "80-100",
             "weight": 1,
             "condition": {
-                "canSeeSky": false,
                 "biomes": ["#aether:is_aether"],
                 "needNearbyBlocks": ["aether:cold_aerocloud"]
                 }

@@ -2,12 +2,11 @@
   "implemented": true,
   "name": "Aether Crowned Joltik",
   "nationalPokedexNumber": 595,
-  "primaryType": "bug",
+  "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
-    "compoundeyes",
-    "unnerve",
-    "h:swarm"
+    "levitate",
+    "h:galvanize"
   ],
   "drops": {
     "amount": 1,

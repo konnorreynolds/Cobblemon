@@ -3,11 +3,9 @@
   "name": "Undergarden Crowned Joltik",
   "nationalPokedexNumber": 595,
   "primaryType": "bug",
-  "secondaryType": "electric",
   "abilities": [
-    "compoundeyes",
-    "unnerve",
-    "h:swarm"
+    "tanglinghairs",
+    "h:speedboost"
   ],
   "drops": {
     "amount": 1,

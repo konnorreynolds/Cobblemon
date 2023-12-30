@@ -2,11 +2,12 @@
   "implemented": true,
   "name": "Crowned Armarouge",
   "nationalPokedexNumber": 936,
-  "primaryType": "fire",
-  "secondaryType": "grass",
+  "primaryType": "ghost",
+  "secondaryType": "ice",
   "abilities": [
-    "flashfire",
-    "h:weakarmor"
+    "moody",
+    "snowwarning",
+    "h:unaware"
   ],
   "drops": {
     "amount": 1,
@@ -18,11 +19,11 @@
     ]
   },
   "baseStats": {
-    "hp": 85,
-    "attack": 60,
+    "hp": 100,
+    "attack": 35,
     "defence": 100,
-    "special_attack": 125,
-    "special_defence": 80,
+    "special_attack": 95,
+    "special_defence": 120,
     "speed": 75
   },
   "behaviour": {

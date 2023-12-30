@@ -2,12 +2,11 @@
   "implemented": true,
   "name": "Aether Crowned Galvantula",
   "nationalPokedexNumber": 596,
-  "primaryType": "bug",
+  "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
-    "compoundeyes",
-    "unnerve",
-    "h:swarm"
+    "levitate",
+    "h:galvanize"
   ],
   "drops": {
     "amount": 1,
@@ -20,11 +19,11 @@
   },
   "baseStats": {
     "hp": 70,
-    "attack": 77,
+    "attack": 55,
     "defence": 60,
-    "special_attack": 97,
+    "special_attack": 117,
     "special_defence": 60,
-    "speed": 108
+    "speed": 110
   },
   "catchRate": 75,
   "maleRatio": 0.5,

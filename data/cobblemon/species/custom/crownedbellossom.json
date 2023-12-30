@@ -2,11 +2,11 @@
   "implemented": true,
   "name": "Crowned Bellossom",
   "nationalPokedexNumber": 182,
-  "primaryType": "grass",
+  "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
-    "chlorophyll",
-    "h:healer"
+    "flowergift",
+    "h:queenlymajesty"
   ],
   "drops": {
     "amount": 1,
@@ -19,11 +19,11 @@
   },
   "baseStats": {
     "hp": 75,
-    "attack": 80,
-    "defence": 95,
-    "special_attack": 90,
-    "special_defence": 100,
-    "speed": 50
+    "attack": 120,
+    "defence": 75,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 90
   },
   "catchRate": 45,
   "maleRatio": 0.5,
@@ -159,10 +159,10 @@
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
-    "attack": 0,
+    "attack": 2,
     "defence": 0,
     "special_attack": 0,
-    "special_defence": 3,
+    "special_defence": 0,
     "speed": 0
   },
   "height": 4,

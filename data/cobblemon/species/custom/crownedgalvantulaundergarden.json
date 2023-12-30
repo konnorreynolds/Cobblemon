@@ -3,11 +3,10 @@
   "name": "Undergarden Crowned Galvantula",
   "nationalPokedexNumber": 596,
   "primaryType": "bug",
-  "secondaryType": "electric",
+  "secondaryType": "dragon",
   "abilities": [
-    "compoundeyes",
-    "unnerve",
-    "h:swarm"
+    "tanglinghairs",
+    "h:speedboost"
   ],
   "drops": {
     "amount": 7,

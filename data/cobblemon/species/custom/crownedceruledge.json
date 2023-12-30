@@ -2,11 +2,12 @@
   "implemented": true,
   "name": "Crowned Ceruledge",
   "nationalPokedexNumber": 937,
-  "primaryType": "fire",
-  "secondaryType": "water",
+  "primaryType": "steel",
+  "secondaryType": "fighting",
   "abilities": [
-    "flashfire",
-    "h:weakarmor"
+    "battlearmor",
+    "justified",
+    "h:mindseye"
   ],
   "drops": {
     "amount": 1,
@@ -20,10 +21,10 @@
   "baseStats": {
     "hp": 75,
     "attack": 125,
-    "defence": 80,
+    "defence": 90,
     "special_attack": 60,
-    "special_defence": 100,
-    "speed": 85
+    "special_defence": 70,
+    "speed": 105
   },
   "behaviour": {
     "resting": {

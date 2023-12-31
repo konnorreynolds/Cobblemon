@@ -34,7 +34,7 @@
       "light": "0-4"
     }
   },
-  "catchRate": 25,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "baseExperienceYield": 263,
   "baseScale": 0.85,
@@ -76,9 +76,13 @@
     "32:lavaplume",
     "37:swordsdance",
     "42:allyswitch",
-    "48:bitterblade",
+    "48:sacredsword",
+    "53:skyuppercut",
     "56:psychocut",
     "62:flareblitz",
+    "65:closecombat",
+    "70:smartstrike",
+    "89:behemothblade",
     "tm:brickbreak",
     "tm:bulkup",
     "tm:closecombat",
@@ -117,7 +121,8 @@
     "tm:taunt",
     "tm:terablast",
     "tm:willowisp",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:aquacutter"
   ],
   "labels": [
     "custom"

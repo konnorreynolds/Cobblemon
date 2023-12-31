@@ -39,7 +39,7 @@
       }
     }
   },
-  "catchRate": 25,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "baseExperienceYield": 263,
   "baseFriendship": 20,
@@ -79,8 +79,11 @@
     "37:calmmind",
     "42:allyswitch",
     "48:flamethrower",
+    "48:icebeam",
     "56:expandingforce",
-    "62:armorcannon",
+    "60:shadowball",
+    "62:glaciate",
+    "82:freezedry",
     "tm:acidspray",
     "tm:aurasphere",
     "tm:calmmind",

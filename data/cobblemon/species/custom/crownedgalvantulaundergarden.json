@@ -12,32 +12,20 @@
     "amount": 7,
     "entries": [
       {
-        "item": "minecraft:string",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "minecraft:rotten_flesh",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "cobblemon:nanab_berry",
+        "item": "cobblemon:dragon_fang",
         "percentage": 5.0
       }
     ]
   },
   "baseStats": {
-    "hp": 70,
-    "attack": 77,
+    "hp": 100,
+    "attack": 90,
     "defence": 60,
-    "special_attack": 97,
-    "special_defence": 60,
-    "speed": 108
+    "special_attack": 67,
+    "special_defence": 77,
+    "speed": 78
   },
-  "catchRate": 75,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 165,
@@ -71,7 +59,11 @@
     "39:discharge",
     "44:screech",
     "50:gastroacid",
+    "53:dualchop",
     "56:bugbuzz",
+    "69:meteormash",
+    "72:scaleshot",
+    "85:glaverush",
     "tm:agility",
     "tm:attract",
     "tm:bounce",

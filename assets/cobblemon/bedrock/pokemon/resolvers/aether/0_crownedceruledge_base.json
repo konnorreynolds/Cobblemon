@@ -6,14 +6,14 @@
       "aspects": [],
       "poser": "cobblemon:crownedceruledge",
       "model": "cobblemon:crownedceruledge.geo",
-      "texture": "cobblemon:textures/pokemon/crownedceruledge/crownedceruledge.png",
+      "texture": "cobblemon:textures/pokemon/aether/crownedceruledge/crownedceruledge.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/crownedceruledge/crownedceruledge_shiny.png",
+      "texture": "cobblemon:textures/pokemon/aether/crownedceruledge/crownedceruledge_shiny.png",
       "layers": []
     }
   ]

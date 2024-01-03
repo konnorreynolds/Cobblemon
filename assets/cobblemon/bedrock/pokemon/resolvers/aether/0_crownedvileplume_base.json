@@ -6,12 +6,12 @@
       "aspects": [],
       "poser": "cobblemon:crownedvileplume",
       "model": "cobblemon:crownedvileplume.geo",
-      "texture": "cobblemon:textures/pokemon/crownedvileplume/crownedvileplume.png",
+      "texture": "cobblemon:textures/pokemon/aether/crownedvileplume/crownedvileplume.png",
       "layers": []
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/crownedvileplume/crownedvileplume_shiny.png"
+      "texture": "cobblemon:textures/pokemon/aether/crownedvileplume/crownedvileplume_shiny.png"
     }
   ]
 }

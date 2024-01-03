@@ -6,12 +6,12 @@
       "aspects": [],
       "poser": "cobblemon:crownedgigalith",
       "model": "cobblemon:crownedgigalith.geo",
-      "texture": "cobblemon:textures/pokemon/crownedgigalith/crownedgigalith.png",
+      "texture": "cobblemon:textures/pokemon/aether/crownedgigalith/crownedgigalith.png",
       "layers": []
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/crownedgigalith/crownedgigalith_shiny.png"
+      "texture": "cobblemon:textures/pokemon/aether/crownedgigalith/crownedgigalith_shiny.png"
     }
   ]
 }

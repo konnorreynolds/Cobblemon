@@ -7,12 +7,12 @@
         "aspects": [],
         "poser": "cobblemon:crownedlanturn",
         "model": "cobblemon:crownedlanturn.geo",
-        "texture": "cobblemon:textures/pokemon/crownedlanturn/crownedlanturn.png",
+        "texture": "cobblemon:textures/pokemon/undergarden/crownedlanturn/crownedlanturn.png",
         "layers": []
       },
       {
         "aspects": [ "shiny" ],
-        "texture": "cobblemon:textures/pokemon/crownedlanturn/crownedlanturn_shiny.png"
+        "texture": "cobblemon:textures/pokemon/undergarden/crownedlanturn/crownedlanturn_shiny.png"
       }
     ]
   }

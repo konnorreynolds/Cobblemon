@@ -6,14 +6,14 @@
       "aspects": [],
       "poser": "cobblemon:crownedarmarouge",
       "model": "cobblemon:crownedarmarouge.geo",
-      "texture": "cobblemon:textures/pokemon/crownedarmarouge/crownedarmarouge.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedarmarouge/crownedarmarouge.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/crownedarmarouge/crownedarmarouge_shiny.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedarmarouge/crownedarmarouge_shiny.png",
       "layers": []
     }
   ]

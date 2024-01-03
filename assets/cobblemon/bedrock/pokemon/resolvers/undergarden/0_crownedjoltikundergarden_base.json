@@ -6,12 +6,12 @@
       "aspects": [],
       "poser": "cobblemon:crownedjoltikundergarden",
       "model": "cobblemon:crownedjoltikundergarden.geo",
-      "texture": "cobblemon:textures/pokemon/crownedjoltikundergarden/crownedjoltikundergarden.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedjoltikundergarden/crownedjoltikundergarden.png",
       "layers": []
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/crownedjoltikundergarden/crownedjoltikundergarden_shiny.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedjoltikundergarden/crownedjoltikundergarden_shiny.png",
       "layers": []
     }
   ]

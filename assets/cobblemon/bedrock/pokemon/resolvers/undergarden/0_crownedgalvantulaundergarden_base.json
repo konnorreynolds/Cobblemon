@@ -6,12 +6,12 @@
       "aspects": [],
       "poser": "cobblemon:crownedgalvantulaundergarden",
       "model": "cobblemon:crownedgalvantulaundergarden.geo",
-      "texture": "cobblemon:textures/pokemon/crownedgalvantulaundergarden/crownedgalvantulaundergarden.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedgalvantulaundergarden/crownedgalvantulaundergarden.png",
       "layers": []
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/crownedgalvantulaundergarden/crownedgalvantulaundergarden_shiny.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedgalvantulaundergarden/crownedgalvantulaundergarden_shiny.png",
       "layers": []
     }
   ]

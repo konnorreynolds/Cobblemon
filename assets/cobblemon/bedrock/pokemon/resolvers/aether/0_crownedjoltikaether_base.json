@@ -6,12 +6,12 @@
       "aspects": [],
       "poser": "cobblemon:crownedjoltikaether",
       "model": "cobblemon:crownedjoltikaether.geo",
-      "texture": "cobblemon:textures/pokemon/crownedjoltikaether/crownedjoltikaether.png",
+      "texture": "cobblemon:textures/pokemon/aether/crownedjoltikaether/crownedjoltikaether.png",
       "layers": []
     },
     {
       "aspects": [ "shiny" ],
-      "texture": "cobblemon:textures/pokemon/crownedjoltikaether/crownedjoltikaether_shiny.png",
+      "texture": "cobblemon:textures/pokemon/aether/crownedjoltikaether/crownedjoltikaether_shiny.png",
       "layers": []
     }
   ]

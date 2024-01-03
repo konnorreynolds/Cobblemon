@@ -6,14 +6,14 @@
       "aspects": [],
       "poser": "cobblemon:crownedbellossom",
       "model": "cobblemon:crownedbellossom.geo",
-      "texture": "cobblemon:textures/pokemon/crownedbellossom/crownedbellossom.png",
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedbellossom/crownedbellossom.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/crownedbellossom/crownedbellossom_shiny.png"
+      "texture": "cobblemon:textures/pokemon/undergarden/crownedbellossom/crownedbellossom_shiny.png"
     }
   ]
 }

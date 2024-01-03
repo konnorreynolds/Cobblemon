@@ -12,9 +12,14 @@
     "amount": 1,
     "entries": [
       {
-        "item": "minecraft:string",
-        "percentage": 10
+        "item": "cobblemon:magnet",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 5
       }
+
     ]
   },
   "baseStats": {
@@ -25,7 +30,7 @@
     "special_defence": 60,
     "speed": 110
   },
-  "catchRate": 75,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 165,
@@ -59,7 +64,12 @@
     "39:discharge",
     "44:screech",
     "50:gastroacid",
+    "53:trumpcard",
     "56:bugbuzz",
+    "60:triattack",
+    "64:fly",
+    "72:wringout",
+    "86:bloodmoon",
     "tm:agility",
     "tm:attract",
     "tm:bounce",

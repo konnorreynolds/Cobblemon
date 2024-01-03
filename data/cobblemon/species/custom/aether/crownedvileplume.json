@@ -34,7 +34,7 @@
       "light": "0-4"
     }
   },
-  "catchRate": 45,
+  "catchRate": 20,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "features": [
